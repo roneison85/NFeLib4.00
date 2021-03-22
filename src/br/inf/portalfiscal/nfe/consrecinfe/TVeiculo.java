@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2019.03.18 às 03:37:28 PM BRT 
+// Gerado em: 2021.03.10 às 05:10:05 PM BRT 
 //
 
 
@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="placa">
+ *         &lt;element name="placa" minOccurs="0">
  *           &lt;simpleType>
  *             &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
  *               &lt;whiteSpace value="preserve"/>
@@ -60,7 +60,6 @@ import javax.xml.bind.annotation.XmlType;
 })
 public class TVeiculo {
 
-    @XmlElement(required = true)
     protected String placa;
     @XmlElement(name = "UF", required = true)
     @XmlSchemaType(name = "string")

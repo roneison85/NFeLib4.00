@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.8-b130911.1802 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2021.03.10 às 05:10:22 PM BRT 
+// Gerado em: 2021.09.01 às 10:33:10 AM BRT 
 //
 
 
@@ -476,6 +476,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link TNFe.InfNFe.InfSolicNFF }
+     * 
+     */
+    public TNFe.InfNFe.InfSolicNFF createTNFeInfNFeInfSolicNFF() {
+        return new TNFe.InfNFe.InfSolicNFF();
+    }
+
+    /**
      * Create an instance of {@link TNFe.InfNFe.Cana.ForDia }
      * 
      */
@@ -841,6 +849,22 @@ public class ObjectFactory {
      */
     public TNFe.InfNFe.Det.Prod.Rastro createTNFeInfNFeDetProdRastro() {
         return new TNFe.InfNFe.Det.Prod.Rastro();
+    }
+
+    /**
+     * Create an instance of {@link TNFe.InfNFe.Det.Prod.InfProdNFF }
+     * 
+     */
+    public TNFe.InfNFe.Det.Prod.InfProdNFF createTNFeInfNFeDetProdInfProdNFF() {
+        return new TNFe.InfNFe.Det.Prod.InfProdNFF();
+    }
+
+    /**
+     * Create an instance of {@link TNFe.InfNFe.Det.Prod.InfProdEmb }
+     * 
+     */
+    public TNFe.InfNFe.Det.Prod.InfProdEmb createTNFeInfNFeDetProdInfProdEmb() {
+        return new TNFe.InfNFe.Det.Prod.InfProdEmb();
     }
 
     /**
